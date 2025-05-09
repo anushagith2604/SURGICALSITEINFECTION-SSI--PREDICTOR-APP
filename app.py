@@ -19,67 +19,64 @@ st.set_page_config(page_title="SSI Risk Predictor", layout="centered")
 st.title("🧪 Surgical Site Infection (SSI) Risk Predictor")
 
 st.markdown("Enter patient details to predict the risk of Surgical Site Infection (SSI).")
-st.markdown("""
+#st.markdown("""
 
-    <style>
-    .stApp {
-        background-color: #f0f4f8;
-    }
+    #<style>
+    #.stApp {
+      #  background-color: #f0f4f8;
+    #}
 
-    .main {
-        background-color: #ffffff;
-        padding: 2rem;
-        border-radius: 10px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
+    #.main {
+     #   background-color: #ffffff;
+      #  padding: 2rem;
+       # border-radius: 10px;
+        #box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    #}
 
-    .stButton > button {
-        background-color: #2a5d84;
-        color: white;
-        font-weight: bold;
-        border-radius: 5px;
-        padding: 0.5rem 1rem;
-    }
+    #.stButton > button {
+     #   background-color: #2a5d84;
+      #  color: white;
+       # font-weight: bold;
+        #border-radius: 5px;
+        #padding: 0.5rem 1rem;
+    #}
 
-    .stDataFrame thead {
-        background-color: #2a5d84;
-        color: white;
-    }
+  #  .stDataFrame thead {
+   #     background-color: #2a5d84;
+  #      color: white;
+   # }
 
-    h1, h2, h3 {
-        color: #2a5d84;
-    }
+    #h1, h2, h3 {
+     #   color: #2a5d84;
+    #}
 
-    input[type="text"], input[type="number"], textarea {
-        background-color: #ffffff !important;
-        color: #000000;
-        border: 1px solid #2a5d84;
-        border-radius: 4px;
-        padding: 0.4rem;
-    }
+    #input[type="text"], input[type="number"], textarea {
+     #   background-color: #ffffff !important;
+      #  color: #000000;
+       # border: 1px solid #2a5d84;
+       # border-radius: 4px;
+       # padding: 0.4rem;
+    #}
 
-    div[data-baseweb="select"] {
-        background-color: #ffffff !important;
-        border: 1px solid #2a5d84 !important;
-        border-radius: 4px !important;
-        padding: 0.2rem !important;
-    }
+    #div[data-baseweb="select"] {
+     #   background-color: #ffffff !important;
+      #  border: 1px solid #2a5d84 !important;
+       # border-radius: 4px !important;
+       # padding: 0.2rem !important;
+    #}
 
-    div[data-baseweb="select"] > div {
-        background-color: #ffffff !important;
-    }
+    #div[data-baseweb="select"] > div {
+     #   background-color: #ffffff !important;
+    #}
 
-    label {
-        color: #2a5d84;
-        font-weight: 500;
-    }
-    </style>
-
-
-""", unsafe_allow_html=True)
+    #label {
+     #   color: #2a5d84;
+      #  font-weight: 500;
+    #}
+    #</style>
 
 
-
+#""", unsafe_allow_html=True)
 
 
 # Input form
